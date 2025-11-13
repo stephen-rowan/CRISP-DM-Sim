@@ -31,7 +31,15 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+**CRISP-DM Framework Compliance**: This project MUST align with the six-phase CRISP-DM framework (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment). Verify that:
+- Business objectives and success criteria are defined (Business Understanding phase)
+- Data sources and quality are assessed (Data Understanding phase)
+- Data preparation procedures are documented (Data Preparation phase)
+- Modeling approach is justified (Modeling phase)
+- Evaluation criteria align with business objectives (Evaluation phase)
+- Deployment plan is specified (Deployment phase)
+
+[Additional gates determined based on constitution file]
 
 ## Project Structure
 
