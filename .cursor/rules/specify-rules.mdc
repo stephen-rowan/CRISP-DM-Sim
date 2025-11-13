@@ -1,0 +1,33 @@
+# CRISP-DM-Sim Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-11-13
+
+## Active Technologies
+- Python 3.11+ + Streamlit>=1.28.0, pandas>=2.0.0, plotly>=5.17.0, pydantic>=2.0.0, python-dateutil>=2.8.0 (001-criso-dashboard)
+- Local JSON file at `data/experiments.json` (single array format) (001-criso-dashboard)
+
+- (001-criso-dashboard)
+
+## Project Structure
+
+```text
+backend/
+frontend/
+tests/
+```
+
+## Commands
+
+# Add commands for 
+
+## Code Style
+
+: Follow standard conventions
+
+## Recent Changes
+- 001-criso-dashboard: Added Python 3.11+ + Streamlit>=1.28.0, pandas>=2.0.0, plotly>=5.17.0, pydantic>=2.0.0, python-dateutil>=2.8.0
+
+- 001-criso-dashboard: Added
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
