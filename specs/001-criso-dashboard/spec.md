@@ -1,9 +1,9 @@
-# Feature Specification: CRISO Analysis Dashboard
+# Feature Specification: CRISP Analysis Dashboard
 
-**Feature Branch**: `001-criso-dashboard`  
+**Feature Branch**: `001-crisp-dashboard`  
 **Created**: 2024-12-19  
 **Status**: Draft  
-**Input**: User description: "Create a Streamlit app dashboard to visualize CRISO Analysis based on user completing a form template."
+**Input**: User description: "Create a Streamlit app dashboard to visualize CRISP Analysis based on user completing a form template."
 
 ## Clarifications
 
@@ -19,7 +19,7 @@
 
 ### User Story 1 - Complete Experiment Form and View Initial Dashboard (Priority: P1)
 
-A user opens the Streamlit application and is presented with a form template matching the CRISO experiment documentation structure. The user fills in all required fields including experiment details (lead name, circle, dates), problem statement, baseline, objectives, design information, group details, method, success criteria, analysis approach, and evaluation plan. Upon submission, the system saves the experiment data and immediately displays a dashboard with key metrics and visualizations derived from the submitted information.
+A user opens the Streamlit application and is presented with a form template matching the CRISP experiment documentation structure. The user fills in all required fields including experiment details (lead name, circle, dates), problem statement, baseline, objectives, design information, group details, method, success criteria, analysis approach, and evaluation plan. Upon submission, the system saves the experiment data and immediately displays a dashboard with key metrics and visualizations derived from the submitted information.
 
 **Why this priority**: This is the core user journey - without form completion and basic visualization, the feature provides no value. This story delivers a complete end-to-end experience that can be demonstrated independently.
 
@@ -27,7 +27,7 @@ A user opens the Streamlit application and is presented with a form template mat
 
 **Acceptance Scenarios**:
 
-1. **Given** a user opens the application, **When** they navigate to the form page, **Then** they see all form fields organized according to the CRISO template structure (Experiment Details, Question/Problem Statement, Baseline Statement, Purpose/Objectives, Design and Execution, Evaluation and Outcome)
+1. **Given** a user opens the application, **When** they navigate to the form page, **Then** they see all form fields organized according to the CRISP template structure (Experiment Details, Question/Problem Statement, Baseline Statement, Purpose/Objectives, Design and Execution, Evaluation and Outcome)
 2. **Given** a user has filled in all required form fields, **When** they submit the form, **Then** the system saves the data and redirects them to a dashboard view
 3. **Given** a user has submitted an experiment form, **When** they view the dashboard, **Then** they see at least one visualization displaying key metrics from their experiment data
 4. **Given** a user has submitted multiple experiments, **When** they view the dashboard, **Then** they can see visualizations comparing or aggregating data across experiments
@@ -53,7 +53,7 @@ A user who has previously submitted multiple experiment forms can view a list of
 
 ### User Story 3 - Generate Sample Data and Explore Pre-populated Visualizations (Priority: P3)
 
-A user can generate sample experiment data to explore the dashboard capabilities without manually filling forms. The system creates realistic sample experiments based on the CRISO template structure, populates the dashboard with this data, and allows users to interact with visualizations to understand what insights can be derived from experiment data.
+A user can generate sample experiment data to explore the dashboard capabilities without manually filling forms. The system creates realistic sample experiments based on the CRISP template structure, populates the dashboard with this data, and allows users to interact with visualizations to understand what insights can be derived from experiment data.
 
 **Why this priority**: This story enhances user onboarding and allows stakeholders to understand the dashboard's value proposition before committing real data. It also serves as a demonstration tool.
 
@@ -82,7 +82,7 @@ A user can generate sample experiment data to explore the dashboard capabilities
 
 ### Functional Requirements
 
-- **FR-001**: System MUST provide a form interface that matches the CRISO experiment template structure with all required sections (Experiment Details, Question/Problem Statement, Baseline Statement, Purpose/Objectives, Design and Execution, Evaluation and Outcome)
+- **FR-001**: System MUST provide a form interface that matches the CRISP experiment template structure with all required sections (Experiment Details, Question/Problem Statement, Baseline Statement, Purpose/Objectives, Design and Execution, Evaluation and Outcome)
 - **FR-002**: System MUST collect experiment lead name, circle, start date, and end date (if applicable) in the Experiment Details section. System MAY collect an optional experiment display name field for user-friendly identification.
 - **FR-003**: System MUST collect problem/question statement, baseline statement, and purpose/objectives as text inputs
 - **FR-004**: System MUST collect design information including who was involved, group size (number of people), and method description
@@ -101,7 +101,7 @@ A user can generate sample experiment data to explore the dashboard capabilities
 
 ### Key Entities *(include if feature involves data)*
 
-- **Experiment**: Represents a single CRISO experiment submission. Key attributes include: experiment display name (optional), experiment lead name, circle, start date, end date (optional), problem statement, baseline statement, purpose/objectives, design information (who was involved), group size (number of people), method description, success criteria, analysis approach, evaluation plan. Each experiment has a UUID (universally unique identifier) as its unique identifier and timestamp of submission.
+- **Experiment**: Represents a single CRISP experiment submission. Key attributes include: experiment display name (optional), experiment lead name, circle, start date, end date (optional), problem statement, baseline statement, purpose/objectives, design information (who was involved), group size (number of people), method description, success criteria, analysis approach, evaluation plan. Each experiment has a UUID (universally unique identifier) as its unique identifier and timestamp of submission.
 
 - **Dashboard View**: Represents the visualization state of the dashboard. Key attributes include: selected experiments (one or more), active visualizations, filter criteria, time range. The view aggregates and presents data from one or more experiments.
 

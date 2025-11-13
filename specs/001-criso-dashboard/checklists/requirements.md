@@ -1,4 +1,4 @@
-# Specification Quality Checklist: CRISO Analysis Dashboard
+# Specification Quality Checklist: CRISP Analysis Dashboard
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
 **Created**: 2024-12-19

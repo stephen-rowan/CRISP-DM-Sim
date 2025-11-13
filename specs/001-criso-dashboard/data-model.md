@@ -1,4 +1,4 @@
-# Data Model: CRISO Analysis Dashboard
+# Data Model: CRISP Analysis Dashboard
 
 **Date**: 2025-01-27  
 **Phase**: Phase 1 - Design & Contracts  
@@ -6,13 +6,13 @@
 
 ## Overview
 
-The data model for the CRISO Analysis Dashboard consists of three main entities: Experiment (core data entity), Dashboard View (visualization state), and Visualization (chart representation). The model uses Pydantic for validation and follows the JSON storage structure defined in research.md.
+The data model for the CRISP Analysis Dashboard consists of three main entities: Experiment (core data entity), Dashboard View (visualization state), and Visualization (chart representation). The model uses Pydantic for validation and follows the JSON storage structure defined in research.md.
 
 ## Core Entities
 
 ### 1. Experiment
 
-**Description**: Represents a single CRISO experiment submission with all form data and metadata.
+**Description**: Represents a single CRISP experiment submission with all form data and metadata.
 
 **Attributes**:
 

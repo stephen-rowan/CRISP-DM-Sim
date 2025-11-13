@@ -1,13 +1,13 @@
-# Implementation Plan: CRISO Analysis Dashboard
+# Implementation Plan: CRISP Analysis Dashboard
 
-**Branch**: `001-criso-dashboard` | **Date**: 2025-01-27 | **Spec**: [spec.md](./spec.md)
+**Branch**: `001-crisp-dashboard` | **Date**: 2025-01-27 | **Spec**: [spec.md](./spec.md)
 **Input**: Feature specification from `/specs/001-criso-dashboard/spec.md`
 
 **Note**: This template is filled in by the `/speckit.plan` command. See `.specify/templates/commands/plan.md` for the execution workflow.
 
 ## Summary
 
-Create a Streamlit web application dashboard to visualize CRISO Analysis data. Users complete a form template matching the CRISO experiment documentation structure, and the system persists experiment data to a local JSON file and displays interactive visualizations showing key metrics, trends, and comparative analysis across experiments.
+Create a Streamlit web application dashboard to visualize CRISP Analysis data. Users complete a form template matching the CRISP experiment documentation structure, and the system persists experiment data to a local JSON file and displays interactive visualizations showing key metrics, trends, and comparative analysis across experiments.
 
 ## Technical Context
 
@@ -67,7 +67,7 @@ src/
 │   ├── storage.py             # JSON file persistence service
 │   └── visualization.py       # Dashboard visualization generation
 ├── pages/
-│   ├── form_page.py           # CRISO experiment form interface
+│   ├── form_page.py           # CRISP experiment form interface
 │   └── dashboard_page.py      # Dashboard visualization interface
 └── app.py                      # Main Streamlit application entry point
 

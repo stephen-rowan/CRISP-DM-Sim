@@ -1,4 +1,4 @@
-# Research: CRISO Analysis Dashboard
+# Research: CRISP Analysis Dashboard
 
 **Date**: 2025-01-27  
 **Phase**: Phase 0 - Outline & Research  

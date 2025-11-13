@@ -1,4 +1,4 @@
-# Quickstart Guide: CRISO Analysis Dashboard
+# Quickstart Guide: CRISP Analysis Dashboard
 
 **Date**: 2025-01-27  
 **Phase**: Phase 1 - Design & Contracts  
@@ -18,7 +18,7 @@
 ```bash
 git clone <repository-url>
 cd CRISP-DM-Sim
-git checkout 001-criso-dashboard
+git checkout 001-crisp-dashboard
 ```
 
 ### 2. Create Virtual Environment
@@ -75,7 +75,7 @@ If the browser doesn't open automatically, navigate to `http://localhost:8501` m
 
 The application has two main pages:
 
-1. **Form Page** (`/form`): Submit new CRISO experiments
+1. **Form Page** (`/form`): Submit new CRISP experiments
 2. **Dashboard Page** (`/dashboard`): View visualizations and analysis
 
 Navigation between pages is handled via Streamlit's page navigation.

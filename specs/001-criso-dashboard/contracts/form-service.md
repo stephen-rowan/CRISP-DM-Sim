@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Form Service handles the CRISO experiment form interface, validation, and submission. It provides the user interface for entering experiment data and coordinates with the Storage Service to persist submissions.
+The Form Service handles the CRISP experiment form interface, validation, and submission. It provides the user interface for entering experiment data and coordinates with the Storage Service to persist submissions.
 
 ## Interface
 
@@ -18,13 +18,13 @@ The Form Service handles the CRISO experiment form interface, validation, and su
 - `Optional[Experiment]`: Experiment model if form was submitted and validated, None otherwise
 
 **Behavior**:
-- Displays form with all CRISO template sections
+- Displays form with all CRISP template sections
 - Validates required fields before submission
 - Shows validation errors inline
 - On successful submission: saves experiment and returns Experiment model
 - On validation failure: displays errors and returns None
 
-**Form Sections** (matching CRISO template):
+**Form Sections** (matching CRISP template):
 
 1. **Experiment Details**:
    - Display name (optional text input)
